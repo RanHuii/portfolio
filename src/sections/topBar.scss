@@ -1,0 +1,40 @@
+
+.topBar {
+    top: 0%;
+    height: 80px;
+    z-index: 1;
+  
+  .wrapper {
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+
+    .left {
+        display: flex;
+        .logo {
+            margin-left: 200px;
+            font-size: 35px;
+            font-weight: 700;
+            color: lightblue;
+            margin-right: 40px;
+        }
+        .linkedIniconContainer{
+            .linkedInIcon{
+                padding-top: 10px;
+                margin-right: 40px;
+            }
+        }
+        .githubIconWrapper{
+            .githubIcon{
+                padding-top: 10px;
+            }
+        }
+    }
+
+    .right {
+        margin-left: 450px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+  }
+}

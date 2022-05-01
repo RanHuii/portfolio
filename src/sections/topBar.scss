@@ -3,7 +3,7 @@
     top: 0%;
     height: 80px;
     z-index: 1;
-  
+    background-color: rgb(15, 15, 15);
   .wrapper {
     padding: 0px 30px;
     display: flex;
@@ -15,18 +15,20 @@
             margin-left: 200px;
             font-size: 35px;
             font-weight: 700;
-            color: lightblue;
+            color: white;
             margin-right: 40px;
         }
         .linkedIniconContainer{
             .linkedInIcon{
-                padding-top: 10px;
+                width: 30px;
+                padding-top: 20px;
                 margin-right: 40px;
             }
         }
         .githubIconWrapper{
             .githubIcon{
-                padding-top: 10px;
+                width: 30px;
+                padding-top: 20px;
             }
         }
     }
@@ -35,6 +37,30 @@
         margin-left: 450px;
         display: flex;
         justify-content: space-evenly;
+        
+        .navTabs{
+            :link
+            {
+                color: white;
+            }
+            :visited
+            {
+                color:white;
+                font-style:oblique;
+            }
+            :active
+            {
+                color: wheat;
+                font-style:italic;
+            }
+            :hover{
+                color: white;
+                font-size: 115%;
+            }
+            > *{
+                color: white;
+            }
+        }
     }
   }
 }

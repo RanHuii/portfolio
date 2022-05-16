@@ -17,7 +17,7 @@ export const Topbar = () => {
                 </a>
               </div>
               <div className="githubIconWrapper">
-                <a href="https://github.com/RanHuii">
+                <a href="https://github.com/yiminghuangg">
                   <img className="githubIcon" src={GithubIcon} alt='icon2'/>
                 </a>
               </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.scss"
-// import coffeeImg from '../images/Coffee.png'
+import coffeeImg from '../images/Coffee.png'
 export default function About() {
   return (
     <div className='about' id='about'>
@@ -23,7 +23,7 @@ export default function About() {
           </div>
           <div className='right'>
             <div className='imageContainer'>
-              <img className="profileImg" src={"portfolio/assets/Coffee.png"} alt='hiking'></img>
+              <img className="profileImg" src={coffeeImg} alt='coffee'></img>
             </div>
           </div>
     </div>

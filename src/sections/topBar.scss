@@ -1,66 +1,73 @@
-
 .topBar {
-    top: 0%;
-    height: 80px;
-    z-index: 1;
-    background-color: rgb(15, 15, 15);
+  top: 0%;
+  height: 80px;
+  width: 100vw;
+  z-index: 1;
+  background-color: rgb(15, 15, 15);
   .wrapper {
     padding: 0px 30px;
     display: flex;
     align-items: center;
 
     .left {
-        display: flex;
-        .logo {
-            margin-left: 200px;
-            font-size: 35px;
-            font-weight: 700;
-            color: white;
-            margin-right: 40px;
+      display: flex;
+      .logo {
+        margin-left: 100px;
+        font-size: 35px;
+        font-weight: 700;
+        color: white;
+        margin-right: 40px;
+      }
+      .linkedIniconContainer {
+        .linkedInIcon {
+          width: 30px;
+          padding-top: 20px;
+          margin-right: 40px;
         }
-        .linkedIniconContainer{
-            .linkedInIcon{
-                width: 30px;
-                padding-top: 20px;
-                margin-right: 40px;
-            }
+      }
+      .githubIconWrapper {
+        .githubIcon {
+          width: 30px;
+          padding-top: 20px;
         }
-        .githubIconWrapper{
-            .githubIcon{
-                width: 30px;
-                padding-top: 20px;
-            }
+      }
+      .resumeWrapper {
+        padding-left: 40px;
+        padding-top: 21px;
+        margin-right: 40px;
+        .resumeLink {
+          color: white;
+          font-weight: bold;
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
         }
+      }
     }
 
     .right {
-        margin-left: 450px;
-        display: flex;
-        justify-content: space-evenly;
-        
-        .navTabs{
-            :link
-            {
-                color: white;
-            }
-            :visited
-            {
-                color:white;
-                font-style:oblique;
-            }
-            :active
-            {
-                color: wheat;
-                font-style:italic;
-            }
-            :hover{
-                color: white;
-                font-size: 115%;
-            }
-            > *{
-                color: white;
-            }
+      margin-left: 50%;
+      justify-content: space-evenly;
+
+      .navTabs {
+        :link {
+          color: white;
         }
+        :visited {
+          color: white;
+          font-style: oblique;
+        }
+        :active {
+          color: wheat;
+          font-style: italic;
+        }
+        :hover {
+          color: white;
+          font-size: 115%;
+        }
+        > * {
+          color: white;
+        }
+      }
     }
   }
 }

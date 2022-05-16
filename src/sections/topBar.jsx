@@ -10,7 +10,6 @@ export const Topbar = () => {
         <Navbar fixed="bottom" className="topBar">
           <div className="wrapper">
             <div className="left">
-              
               <Navbar.Brand className="logo" href="#">Yiming Huang</Navbar.Brand>
               <div className="linkedIniconContainer">
                 <a href="https://www.linkedin.com/in/yiming-harry-huang/">
@@ -21,6 +20,9 @@ export const Topbar = () => {
                 <a href="https://github.com/RanHuii">
                   <img className="githubIcon" src={GithubIcon} alt='icon2'/>
                 </a>
+              </div>
+              <div className='resumeWrapper'>
+                <a className='resumeLink' href='https://drive.google.com/file/d/1fxAbRbHncSEiql_TM34u9fYC0E2w8ok0/view?usp=sharing'>Resume</a>
               </div>
             </div>
           <div className="right">

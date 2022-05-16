@@ -1,0 +1,14 @@
+.portfolioProject {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  .left {
+    flex: 0.5;
+  }
+  .right {
+    flex: 0.5;
+    img {
+      width: fit-content;
+    }
+  }
+}

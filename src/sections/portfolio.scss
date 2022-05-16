@@ -1,3 +1,25 @@
 .portfolio {
-    background-color: darkblue;
+  display: flex;
+  flex-direction: column;
+  .skills {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    > * {
+      padding-right: 40px;
+    }
+  }
+  .slacker-wrapper {
+    flex-direction: row;
+    padding-left: 50px;
+    display: flex;
+    .left {
+      flex: 0.5;
+    }
+    .right {
+      flex: 0.5;
+      .slacker-repo-button {
+        color: black;
+      }
+    }
+  }
 }

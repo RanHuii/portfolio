@@ -1,39 +1,45 @@
-.work{
-    padding-left: 50px;
-    display: flex;
-    flex-direction: column;
-    .title{
-        padding-bottom: 50px;
+.work {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: row;
+  .left {
+    flex: 0.5;
+    .title {
+      padding-bottom: 50px;
     }
-    .demonware{
-        .time{
-            line-height: 0.5;
-        }
-       
-        h4{
-            line-height: 0.3;
-        }
-        padding-bottom: 40px;
-    }
-    .sierra{
-        .time{
-            line-height: 0.5;
-        }
-       
-        h4{
-            line-height: 0.3;
-        }
-        padding-bottom: 40px;
-    }
-    .geocortex{
-        .time{
-            line-height: 0.5;
-        }
-       
-        h4{
-            line-height: 0.3;
-        }
-        padding-bottom: 40px;
-    }
+    .demonware {
+      .time {
+        line-height: 0.5;
+      }
 
+      h4 {
+        line-height: 0.3;
+      }
+      padding-bottom: 40px;
+    }
+    .sierra {
+      .time {
+        line-height: 0.5;
+      }
+
+      h4 {
+        line-height: 0.3;
+      }
+      padding-bottom: 40px;
+    }
+    .geocortex {
+      .time {
+        line-height: 0.5;
+      }
+
+      h4 {
+        line-height: 0.3;
+      }
+      padding-bottom: 40px;
+    }
+  }
+  .right {
+    flex: 0.5;
+    margin-right: 50px;
+  }
 }

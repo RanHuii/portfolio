@@ -4,6 +4,7 @@ import Contact from './sections/contact';
 import Home from './sections/home';
 import Portfolio from './sections/portfolio';
 import Work from './sections/work';
+import PortfolioProject from './sections/portfolioProject';
 import {React} from 'react'
 import "./app.scss"
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <About/>
         <Work/>
         <Portfolio/>
+        <PortfolioProject/>
         <Contact/>
       </div>
     </div>

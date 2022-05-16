@@ -1,18 +1,16 @@
-.app{
-    height: 100vh;
+.app {
+  height: 100vh;
 
-    .sections{
-        width: 100vw;
-        position: relative;
-        scroll-behavior: smooth;
-        scrollbar-width: none; //for firefox
-
-        > *{
-            padding-top: 80px;
-            width: 100%;
-            height: calc(100vh);
-            display: flex;
-
-        }
+  .sections {
+    width: 100vw;
+    position: relative;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    > * {
+      padding-top: 80px;
+      width: 100%;
+      height: calc(100vh);
+      display: flex;
     }
+  }
 }

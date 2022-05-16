@@ -1,3 +1,11 @@
 .contact {
-    background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  .contactTitle {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .form {
+  }
 }

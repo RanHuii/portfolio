@@ -1,65 +1,64 @@
 @import "../global.scss";
 .about {
-    display: flex;
-    .left{
-        flex: 0.5;
-        .background{
-            text-align: left;
-            padding-top: 90px;
-            padding-left: 50px;
-            padding-right: 100px;
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 18px;
-            font-weight: 300;
-            line-height: 1.2;
-            margin: 0;
-        }
-        .education{
-            padding-top: 30px;
-            padding-left: 50px;
-            .eduHeader{
-               line-height: 1.2;
-               padding-bottom: 30px;
-            }
-            .year{
-                line-height: 0.15;
-            }
-            .school{
-                line-height: 0.2;
-            }
-            
-        }
+  display: flex;
+  .left {
+    flex: 0.5;
+    .background {
+      text-align: left;
+      padding-top: 5%;
+      padding-left: 50px;
+      padding-right: 100px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.2;
+      margin: 0;
     }
-    .right{
-        flex: 0.5;
-        overflow: hidden;
-        .imageContainer{
-            width: 700px;
-            height: 700px;
-            border-radius: 50%;
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            float: right;
-            @include mobile{
-                align-items: flex-start;
-            }
-        
-            .profileImg {
-                width: 90%;
-                padding-right: 20%;
-                padding-bottom: 35%;
-                @include mobile{
-                    height: 50%;
-                }
-            }
-            // .profileImg{
-            //     width: 600px;
-            //     height: 600px;
-            //     padding-left: 250px;
-            //     padding-top: 70px;
-            //     padding-bottom: 100px;
-            // }
-        }
+    .education {
+      padding-top: 30px;
+      padding-left: 50px;
+      .eduHeader {
+        line-height: 1.2;
+        padding-bottom: 30px;
+      }
+      .year {
+        line-height: 0.15;
+      }
+      .school {
+        // line-height: 0.2;
+      }
     }
+  }
+  .right {
+    flex: 0.5;
+    overflow: hidden;
+    .imageContainer {
+      width: 700px;
+      height: 700px;
+      display: flex;
+      align-items: flex-end;
+      float: right;
+      @include mobile {
+        align-items: flex-start;
+      }
+
+      .profileImg {
+        width: 90%;
+        padding-right: 20%;
+        padding-bottom: 35%;
+        @include mobile {
+          width: 50%;
+          height: 50%;
+        }
+      }
+      // .profileImg{
+      //     width: 600px;
+      //     height: 600px;
+      //     padding-left: 250px;
+      //     padding-top: 70px;
+      //     padding-bottom: 100px;
+      // }
+    }
+  }
 }

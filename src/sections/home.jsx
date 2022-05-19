@@ -31,7 +31,7 @@ export default function Home() {
                     <h1 className="title">HELLO, I AM </h1>
                 </div>
                 <div className="nameWrapper" >
-                    <h1 className="name" ref={nameRef}></h1>
+                    <span className="name" ref={nameRef}></span>
                     </div>
                 
                 <div className="intro" >

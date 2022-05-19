@@ -12,7 +12,7 @@ export default function PortfolioProject() {
         </div>
 
         <div className='right'>
-            <img src={portfolioImg}></img>
+            <img src={portfolioImg} alt=""></img>
         </div>
     </div>
   )

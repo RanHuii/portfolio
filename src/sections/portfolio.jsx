@@ -5,7 +5,7 @@ import cplusplus from '../images/cplusplus.png'
 import docker from '../images/docker.png'
 import kubernetes from '../images/kubernetes.png'
 import python from '../images/python.png'
-import reactGIF from '../images/react.gif'
+// import reactGIF from '../images/react.gif'
 import reactIcon from '../images/react.png'
 import Button from 'react-bootstrap/Button'
 export default function Portfolio() {
@@ -13,12 +13,12 @@ export default function Portfolio() {
     <div className='portfolio' id='portfolio'>
       <div className='skills'>
         <h1>Skills & Projects</h1>
-        <img src={cplusplus}></img>
-        <img src={docker}></img>
-        <img src={kubernetes}></img>
-        <img src={python}></img>
+        <img src={cplusplus} alt=""></img>
+        <img src={docker} alt=""></img>
+        <img src={kubernetes} alt=""></img>
+        <img src={python} alt=""></img>
         {/* <img src={reactGIF}></img> */}
-        <img src={reactIcon}></img>
+        <img src={reactIcon} alt=""></img>
       </div>
       <div className='slacker-wrapper'>
         <div className='left'>
@@ -28,7 +28,7 @@ export default function Portfolio() {
           <Button variant='dark' className='slacker-repo-button' href="https://github.com/CSC485A-Slacker/slacker">Repository</Button>
         </div>
         <div className='right'>
-          <img src={slacker}></img>
+          <img src={slacker} alt=""></img>
         </div>
       </div>
     </div>

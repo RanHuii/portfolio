@@ -22,7 +22,7 @@ export const Topbar = () => {
                 </a>
               </div>
               <div className='resumeWrapper'>
-                <a className='resumeLink' href='https://drive.google.com/file/d/1fxAbRbHncSEiql_TM34u9fYC0E2w8ok0/view?usp=sharing'>Resume</a>
+                {/* <a className='resumeLink' href='https://drive.google.com/file/d/1fxAbRbHncSEiql_TM34u9fYC0E2w8ok0/view?usp=sharing'>Resume</a> */}
               </div>
             </div>
           <div className="right">

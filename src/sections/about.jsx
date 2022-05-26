@@ -12,7 +12,7 @@ export default function About() {
                 In this Fall, I will join Amazon as a full-time Software Engineer.</p>
                 {/* <a href='https://www.amazon.jobs/en/job_categories/software-development'> Amazon </a> */}
                   
-              <p>When I am not coding, I like to workout and go feel the nature.</p>
+              <p>When I am not coding, I like to workout and play tennis.</p>
             </div>
             <div className='education'>
               <h1 className='eduHeader'>Education</h1>

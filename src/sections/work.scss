@@ -41,5 +41,13 @@
   .right {
     flex: 0.5;
     margin-right: 50px;
+    p {
+      padding-right: 30px;
+      font-family: "proxima-nova", sans-serif;
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 1.5;
+      margin: 0;
+    }
   }
 }
